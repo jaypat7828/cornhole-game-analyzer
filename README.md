@@ -11,6 +11,16 @@ Analyze a cornhole game and generate player stats.
 # ├── requirements.txt        # Python dependencies
 # └── Makefile                # Build/Run automation
 
+models/ – for the YOLOv8 model weights.
+
+samples/ – place your input .mp4 videos here.
+
+outputs/ – processed videos will be saved here.
+
+
+Download YOLOv8 (nano is fastest for testing):
+
+
 # requirements.txt
 # opencv-python
 # streamlit

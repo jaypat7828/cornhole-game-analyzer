@@ -1,4 +1,7 @@
+from ultralytics import YOLO
+
+model = YOLO("models/yolov8n.pt")
+
 def track_players_and_bags(video_path):
-    # Load video and detect players/bags frame by frame
-    # Return list of annotated frames and fps
-    return [], 30
+    results = model.track(video_path, persist=True)
+    return results
