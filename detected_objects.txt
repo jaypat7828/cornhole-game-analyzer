@@ -1,9 +1,2 @@
-baseball bat
-bench
-boat
-car
 frisbee
 kite
-person
-skateboard
-surfboard

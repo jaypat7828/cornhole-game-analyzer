@@ -1,7 +1,8 @@
 opencv-python
 streamlit
-ultralytics  # YOLOv8
+ultralytics  # YOLOv8n
 numpy
 pandas
 moviepy
 torch
+PyYAML
