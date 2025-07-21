@@ -7,3 +7,10 @@ download-model:
 
 run:
 	streamlit run app.py
+
+help:
+	@echo "Usage:"
+	@echo "  make install - Install dependencies"
+	@echo "  make download-model - Download YOLOv8 model"
+	@echo "  make run - Run the Streamlit app"
+	@echo "  make help - Show this help message"
