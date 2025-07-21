@@ -1,0 +1,8 @@
+opencv-python
+streamlit
+ultralytics  # YOLOv8n
+numpy
+pandas
+moviepy
+torch
+PyYAML
